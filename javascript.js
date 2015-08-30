@@ -29,3 +29,11 @@ var totalTrains = 12;
 for(var stoppedTrains = trainsOperational + 1; stoppedTrains <= totalTrains; stoppedTrains++){
   console.log("Train #" + stoppedTrains + " is not operational.");
 }
+
+// Sheep refactor
+var numSheep = 4;
+var monthsToPrint = 12;
+for(monthNumber = 1; monthNumber <= monthsToPrint; monthNumber++){
+  numSheep = (numSheep * 4);
+  console.log("There will be " + numSheep + " sheep after " + monthNumber + " month(s)!");
+}
